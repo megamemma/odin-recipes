@@ -1,0 +1,29 @@
+* {
+    background-color: hsl(148, 28%, 74%); 
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.project-name {
+    font-size: 3.5rem;
+    text-indent: 5%;
+    letter-spacing: 2px;
+    text-shadow: 0 1.5px 0 rgb(116, 181, 176);
+}
+
+li {
+    font-size: 150%;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    text-decoration: underline wavy rgb(78, 176, 153) 2px;
+}
+
+a:hover {
+    text-decoration: underline wavy rgb(55, 140, 133) 2px;
+    color: rgb(55, 140, 133);
+    transition: color 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
