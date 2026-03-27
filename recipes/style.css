@@ -4,9 +4,21 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: justify;
+}
+
 p {
     text-indent: 20px;
 }
+
+li, p {
+    color: rgb(55, 85, 72);
+}
+
 img {
     border: 3px dotted rgb(255, 255, 255);
 }
