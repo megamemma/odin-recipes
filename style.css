@@ -28,12 +28,36 @@ a {
     text-decoration: none;
 }
 
-.flex-container {
+.gallery {
     display: flex;
-    margin-top: 30px;
-    margin-right: 30px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.flex-container div {
-    flex: 1;
+.card {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 4px solid rgba(255,255,255,0.4);
 }
+
+.card a {
+    flex: 1 1 0;
+    min-width: 0;
+    display: block;
+    flex-direction: column;
+}
+
+.card img {
+    margin-top: 10px;
+    display: block;
+    height: 200px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.card:hover {
+    transform: scale(0.95);
+    transition: ease-in 0.1s;
+}
+
